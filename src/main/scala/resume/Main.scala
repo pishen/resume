@@ -20,6 +20,7 @@ object Main extends App {
     head(
       tags2.title("Pishen Tsai"),
       meta(charset := "UTF-8"),
+      meta(name := "viewport", scalatags.Text.all.content := "width=device-width, initial-scale=1"),
       link(rel := "stylesheet", href := "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"),
       raw(
         """
@@ -188,9 +189,9 @@ object Main extends App {
           div(cls := "col-sm-2", h3(i("Education"))),
           div(
             cls := "col-sm-10",
-            h3("National Taiwan University ", small("Sep 2011 - Jul 2014")),
+            h3("National Taiwan University", br, small("Sep 2011 - Jul 2014")),
             p("Master Computer Science. GPA 4.15"),
-            h3("National Taiwan University ", small("Sep 2007 - Jun 2011")),
+            h3("National Taiwan University", br, small("Sep 2007 - Jun 2011")),
             p("Bachelor Computer Science. Two presidential awards.")
           )
         ),
