@@ -160,7 +160,7 @@ object Main extends App {
             cls := "col-sm-10",
             h3("ScalaTaiwan ", small("Jan 2016 - Present")),
             p("A ", at("https://www.meetup.com/Scala-Taiwan-Meetup/", "meetup group"), " in Taipei which is held every month. I've joined in the very beginning and helped designing the logo and ", at("https://gitter.im/ScalaTaiwan/ScalaTaiwan", "gitter channel"), ". We are a group of people who loves to share knowledge and news about Scala, and would like to gather and strengthen the Scala community in Taiwan."),
-            h3(at("https://scalataiwan.github.io/ScalaKitchen/", "ScalaKitchen"), " ", small("← Click to Play")),
+            h3(at("http://scalakitchen.org/", "ScalaKitchen"), " ", small("← Click to Play")),
             p("A Chinese Scala tutorial with online playground, implemented by ", at("https://szeiger.github.io/ornate-doc/", "Ornate"), " site generator and ", at("https://scalafiddle.io/", "ScalaFiddle"), ". I'm now the main contributor of this project."),
             h3("Talks"),
             ul(
