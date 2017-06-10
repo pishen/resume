@@ -118,13 +118,13 @@ object Main extends App {
           div(cls := "col-sm-2", h3(i("Open Source"))),
           div(
             cls := "col-sm-10",
-            h3(at("https://www.vocaradio.com/", "VocaRadio"), " ", small("← Click to Play")),
+            h3(at("https://vocaradio.com/", "VocaRadio"), " ", small("← Click to Play")),
             ul(
               li("Github: ", at("https://github.com/pishen/vocaradio", "pishen/vocaradio")),
               li("A 24/7 web radio playing 1700+ VOCALOID songs on YouTube. Implemented by Play Framework and Akka Actors."),
               li("Since the current playing song is synchronized between each client, one can also use the websocket chatroom and song ordering system to interact with other fans.")
             ),
-            h3(at("https://www.goi.moe/", "ゴイマシーン (goi machine)"), " ", small("← Click to Play")),
+            h3(at("https://goi.moe/", "ゴイマシーン (goi machine)"), " ", small("← Click to Play")),
             ul(
               li("Github: ", at("https://github.com/pishen/goi", "pishen/goi")),
               li("A web application which helps users to learn Japanese vocabularies."),
