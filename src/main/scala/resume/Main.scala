@@ -90,7 +90,8 @@ object Main extends App {
             cls := "col-sm-10",
             h3("Software Engineer at ", at("https://www.kktv.me", "KKTV"), br, small("Oct 2016 - Present")),
             ul(
-              li("Improved the data engineering infrastructure. Used Scala/Spark to generate various reports, such as measuring users' satisfaction on each title, or computing the cost per view for each title.")
+              li("Improved the data engineering infrastructure. Used Scala/Spark to generate various reports, such as measuring users' satisfaction on each drama, or computing the cost per view for each drama."),
+              li("Developed new recommendation system which applies Collaborative Filtering on users' log.")
             ),
             h3("Software Engineer at ", at("https://www.kkbox.com", "KKBOX"), br, small("Oct 2014 - Sep 2016")),
             ul(
@@ -139,6 +140,11 @@ object Main extends App {
             ul(
               li("Github: ", at("https://github.com/pishen/chart4s", "pishen/chart4s")),
               li("A simple tool that lets you draw a web chart by Scala. Using typeclasses to keep the source code DRY.")
+            ),
+            h3("scalikejdbc-generic"),
+            ul(
+              li("Github: ", at("https://github.com/pishen/scalikejdbc-generic", "pishen/scalikejdbc-generic")),
+              li("A generic mapper which helps mapping your ScalikeJDBC's ResultSet into your custom data structure. Using the techniques in ", at("https://github.com/milessabin/shapeless", "shapeless."))
             ),
             h3("annoy4s"),
             ul(
