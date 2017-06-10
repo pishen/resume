@@ -153,7 +153,7 @@ object Main extends App {
             ),
             h3("Other contributions"),
             ul(
-              li("I also have sent several pull requests to ", at("https://github.com/pathikrit/better-files/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "better-files"), ", ", at("https://github.com/seratch/AWScala/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "AWScala"), ", and ", at("https://github.com/opt-tech/chronoscala/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "chronoscala"))
+              li("I also have sent several pull requests to ", at("https://github.com/pathikrit/better-files/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "better-files"), ", ", at("https://github.com/seratch/AWScala/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "AWScala"), ", and ", at("https://github.com/opt-tech/chronoscala/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "chronoscala"), ".")
             )
           )
         ),
