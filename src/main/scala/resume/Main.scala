@@ -144,17 +144,16 @@ object Main extends App {
             h3("scalikejdbc-generic"),
             ul(
               li("Github: ", at("https://github.com/pishen/scalikejdbc-generic", "pishen/scalikejdbc-generic")),
-              li("A generic mapper which helps mapping your ScalikeJDBC's ResultSet into your custom data structure. Using the techniques in ", at("https://github.com/milessabin/shapeless", "shapeless."))
+              li("A generic mapper which helps mapping your ScalikeJDBC's ResultSet into your custom data structure. Using the techniques in ", at("https://github.com/milessabin/shapeless", "shapeless"), ".")
             ),
             h3("annoy4s"),
             ul(
               li("Github: ", at("https://github.com/pishen/annoy4s", "pishen/annoy4s")),
               li("A Scala client for ", at("https://github.com/spotify/annoy", "spotify/annoy."), " Using JNA (Java Native Access) to connect Scala to the C++ source code in Annoy.")
             ),
-            h3("lsh4s"),
+            h3("Other contributions"),
             ul(
-              li("Github: ", at("https://github.com/pishen/lsh4s", "pishen/lsh4s")),
-              li("A Scala implementation of Locality Sensitive Hashing, which was used in KKBOX's recommendation algorithm to speed up the indexing time on large vector space.")
+              li("I also have sent several pull requests to ", at("https://github.com/pathikrit/better-files/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "better-files"), ", ", at("https://github.com/seratch/AWScala/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "AWScala"), ", and ", at("https://github.com/opt-tech/chronoscala/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "chronoscala"))
             )
           )
         ),
