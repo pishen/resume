@@ -11,11 +11,11 @@ object Main extends App {
     val browser = opt[Boolean]()
     verify()
   }
-  
+
   File("site").createIfNotExists(true)
-  
+
   def at(url: String, content: String) = a(href := url, target := "_blank", content)
-  
+
   val content = "<!DOCTYPE html>" + html(
     head(
       tags2.title("Pishen Tsai"),
@@ -28,25 +28,25 @@ object Main extends App {
           .container {
             max-width: 900px;
           }
-          
+
           a:link,a:visited,a:hover,a:active {
             color: #333;
             text-decoration: underline;
           }
-          
+
           h3 {
             font-size: 20px;
           }
-          
+
           hr {
             margin-bottom: 0px;
           }
-          
+
           ul {
             padding-left: 0px;
             list-style-type: square;
           }
-          
+
           .label {
             color: #333;
             font-size: 15px;
@@ -54,7 +54,7 @@ object Main extends App {
             margin-bottom: 5px;
             display: inline-block;
           }
-          
+
           .label-default {
             background-color: #eee;
           }
@@ -88,16 +88,16 @@ object Main extends App {
           div(cls := "col-sm-2", h3(i("Experience"))),
           div(
             cls := "col-sm-10",
-            h3("Software Engineer at ", at("https://www.kktv.me", "KKTV"), br, small("Oct 2016 - Present")),
+            h3("Software Engineer at ", at("https://www.kktv.me", "KKTV"), br, small("Oct 2016 - Sep 2017")),
             ul(
               li("Improved the data engineering infrastructure. Used Scala/Spark to generate various reports, such as measuring users' satisfaction on each drama, or computing the cost per view for each drama."),
-              li("Developed new recommendation system which applies Collaborative Filtering on users' log.")
+              li("Developed a related-drama finding algorithm which applies Collaborative Filtering on users' logs, this algorithm increased the average watching time by 1.5hr per week for each user.")
             ),
             h3("Software Engineer at ", at("https://www.kkbox.com", "KKBOX"), br, small("Oct 2014 - Sep 2016")),
             ul(
               li("Introduced the solutions of Scala/Spark into KKBOX. Helped training other 5+ engineers to use Scala/Spark in big data processing jobs, such as user log analytics or recommendation system."),
               li("Created tools like ", at("https://github.com/KKBOX/spark-deployer", "spark-deployer"), " in order to lower down the learning and maintaining burden of big data workflow."),
-              li("Participated in the development of new recommendation system, including personalized feed, playlist generation, and radio system. Using machine learning tools like Google word2vec, Spark MLlib, and some speed-up indexing algorithms like Locality Sensitive Hashing or ", at("https://github.com/spotify/annoy", "spotify/annoy."), " Our new personalized feed has achieved 10% improvement in the CTR."),
+              li("Participated in the development of new recommendation system, including personalized feed, playlist generation, and radio system. Using machine learning tools like Google word2vec, Spark MLlib, and some speed-up indexing algorithms like Locality Sensitive Hashing or ", at("https://github.com/spotify/annoy", "spotify/annoy.")),
               li("Developed an internal web application called \"KKRadio\", which can let a KKBOX user login, choose preference, and listen to an auto-generated radio playlist. The algorithm used to generate the radio can be plugged in easily for the QA and developers to compare the performance. A ", at("https://www.youtube.com/watch?v=haZftqgDsJo", "small demo"), " is available.")
             ),
             h3("Summer Intern at Yahoo! Taiwan", br, small("Jul 2013 - Aug 2013")),
@@ -209,15 +209,15 @@ object Main extends App {
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-         
+
           ga('create', 'UA-44173601-3', 'auto');
           ga('send', 'pageview');
-         
+
         </script>
       """)
     )
   )
-  
+
   val indexFile = File("site/index.html").overwrite(content)
   if(Conf.browser()) {
     Desktop.getDesktop.browse(indexFile.uri)
