@@ -184,7 +184,7 @@ object Main extends App {
           div(
             cls := "col-sm-10",
             marginTop := "20px",
-            Seq("Scala", "Java", "JavaScript", "Python", "SQL", "HTML & CSS", "Apache Spark", "Play Framework", "Akka", "AWS", "Machine Learning", "Emacs", "Linux")
+            Seq("Scala", "Java", "JavaScript", "Python", "SQL", "HTML & CSS", "Apache Spark", "Play Framework", "Akka", "Amazon Web Service", "Machine Learning", "Emacs", "Linux")
               .map(skill => span(cls := "label label-default", skill))
           )
         ),
