@@ -105,7 +105,7 @@ object Main extends App {
               li("Rewrote the Collaborative Filtering algorithm in the online Shopping Mall and achieved a 7x speed up (PoC)."),
               li("Demo the result on Yahoo! Taiwan's Intern Day and won the ", b("Most Popular Award."))
             ),
-            h3("Graduate Student at IRLab, NTU", br, small("Sep 2011 - Jul 2014")),
+            h3("Graduate Student at IRLab, NTU (Prof. Pu-Jen Cheng)", br, small("Sep 2011 - Jul 2014")),
             ul(
               li("Improved the accuracy of a speed-up algorithm for ", at("http://dl.acm.org/citation.cfm?id=2339643", "Logistic Markov Embedding"), ", which can be applied on predicting sequences like music playlist, online shopping flow, news reading...etc."),
               li("Slides: ", a(href := "soft-lme.pdf", "Modeling Item Sequences by Overlapped Markov Embeddings"))
@@ -184,7 +184,7 @@ object Main extends App {
           div(
             cls := "col-sm-10",
             marginTop := "20px",
-            Seq("Scala", "Java", "JavaScript", "Python", "SQL", "HTML & CSS", "Apache Spark", "Play Framework", "Akka", "Amazon Web Service", "Machine Learning", "Emacs", "Ubuntu")
+            Seq("Scala", "Java", "JavaScript", "Python", "SQL", "HTML & CSS", "Apache Spark", "Play Framework", "Akka", "AWS", "Machine Learning", "Emacs", "Linux")
               .map(skill => span(cls := "label label-default", skill))
           )
         ),
