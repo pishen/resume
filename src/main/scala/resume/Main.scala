@@ -169,6 +169,7 @@ object Main extends App {
             p("A Chinese Scala tutorial with online playground, implemented by ", at("https://szeiger.github.io/ornate-doc/", "Ornate"), " site generator and ", at("https://scalafiddle.io/", "ScalaFiddle"), ". I'm now the main contributor of this project."),
             h3("Talks"),
             ul(
+              li(b("Shapeless Introduction"), " | ScalaTaiwan | 2017-07-12 | ", at("https://speakerdeck.com/pishen/shapeless-introduction", "slides")),
               li(b("ScalaKitchen"), " | ScalaTaiwan | 2017-04-12 | ", at("https://speakerdeck.com/pishen/scalakitchen", "slides")),
               li(b("sbt-emr-spark"), " | ScalaMatsuri 2017 Unconference | 2017-02-26 | ", at("https://speakerdeck.com/pishen/sbt-emr-spark", "slides")),
               li(b("My Personal Report of Scala Kansai 2016"), " | ScalaTaiwan | 2016-11-01 | ", at("https://speakerdeck.com/pishen/my-personal-report-of-scala-kansai-2016", "slides")),
