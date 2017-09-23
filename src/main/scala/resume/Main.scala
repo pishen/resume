@@ -91,7 +91,7 @@ object Main extends App {
             h3("Software Engineer at ", at("https://www.kktv.me", "KKTV"), br, small("Oct 2016 - Sep 2017")),
             ul(
               li("Improved the data engineering infrastructure. Used Scala/Spark to generate various reports, such as measuring users' satisfaction on each drama, or computing the cost per view for each drama."),
-              li("Developed a related-drama finding algorithm which applies Collaborative Filtering on users' logs, this algorithm increased the average watching time by 1.5hr per week for each user.")
+              li("Developed a related-drama finding algorithm which applies Collaborative Filtering on users' logs. This algorithm increased the average watching time by 1.5hr per week for each user.")
             ),
             h3("Software Engineer at ", at("https://www.kkbox.com", "KKBOX"), br, small("Oct 2014 - Sep 2016")),
             ul(
@@ -139,7 +139,7 @@ object Main extends App {
             h3("chart4s"),
             ul(
               li("Github: ", at("https://github.com/pishen/chart4s", "pishen/chart4s")),
-              li("A simple tool that lets you draw a web chart by Scala. Using typeclasses to keep the source code DRY.")
+              li("A simple tool that lets you draw a web chart by Scala.")
             ),
             h3("scalikejdbc-generic"),
             ul(
