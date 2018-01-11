@@ -88,22 +88,27 @@ object Main extends App {
           div(cls := "col-sm-2", h3(i("Experience"))),
           div(
             cls := "col-sm-10",
+            h3("Software Engineer at ", at("http://www.vpon.com/en/", "Vpon"), br, small("Oct 2017 - Present")),
+            ul(
+              li("Developed interactive insight reports for campaign managers to to find their target audience. Used Apache Spark and ", at("https://www.scala-js.org/", "Scala.js"), " to form a full-stack solution.")
+            ),
             h3("Software Engineer at ", at("https://www.kktv.me", "KKTV"), br, small("Oct 2016 - Sep 2017")),
             ul(
-              li("Improved the data engineering infrastructure. Used Scala/Spark to generate various reports, such as measuring users' satisfaction on each drama, or computing the cost per view for each drama."),
-              li("Developed a related-drama finding algorithm which applies Collaborative Filtering on users' logs. This algorithm increased the average watching time by 1.5hr per week for each user.")
+              li("Created ", at("https://github.com/pishen/sbt-emr-spark", "sbt-emr-spark"), " and applied it on the data workflow in KKTV."),
+              li("Developed a drama recommendation system based on Collaborative Filtering. This algorithm increased the average watching time by 1.5hr per week for each user.")
             ),
-            h3("Software Engineer at ", at("https://www.kkbox.com", "KKBOX"), br, small("Oct 2014 - Sep 2016")),
+            h3("Software Engineer at ", at("https://www.kkbox.com/tw/en/index.html", "KKBOX"), br, small("Oct 2014 - Sep 2016")),
             ul(
               li("Introduced the solutions of Scala/Spark into KKBOX. Helped training other 5+ engineers to use Scala/Spark in big data processing jobs, such as user log analytics or recommendation system."),
-              li("Created tools like ", at("https://github.com/KKBOX/spark-deployer", "spark-deployer"), " in order to lower down the learning and maintaining burden of big data workflow."),
-              li("Participated in the development of new recommendation system, including personalized feed, playlist generation, and radio system. Using machine learning tools like Google word2vec, Spark MLlib, and some speed-up indexing algorithms like Locality Sensitive Hashing or ", at("https://github.com/spotify/annoy", "spotify/annoy.")),
-              li("Developed an internal web application called \"KKRadio\", which can let a KKBOX user login, choose preference, and listen to an auto-generated radio playlist. The algorithm used to generate the radio can be plugged in easily for the QA and developers to compare the performance. A ", at("https://www.youtube.com/watch?v=haZftqgDsJo", "small demo"), " is available.")
+              li("Created ", at("https://github.com/KKBOX/spark-deployer", "spark-deployer"), " to lower down the learning curve and maintenance cost of big data processing."),
+              li("Participated in the development of recommendation system, including personalized feed and generated playlists. Used machine learning tools like Google word2vec and Spark MLlib. Our algorithm had improved the click rate on KKBOX's entry view by 20%."),
+              li("Developed Approximate Nearest Neighbors indexing tools like ", at("https://github.com/pishen/lsh4s", "lsh4s"), " and ", at("https://github.com/annoy4s/annoy4s", "annoy4s"), " and applied them on the recommendation system."),
+              li("Developed an internal web application called \"KKRadio\", which can let a KKBOX user login, choose preference, and listen to an auto-generated radio playlist. The playlist generating algorithm can be plugged in easily for the QA and developers to compare the performance. A ", at("https://www.youtube.com/watch?v=haZftqgDsJo", "small demo"), " is available.")
             ),
             h3("Summer Intern at Yahoo! Taiwan", br, small("Jul 2013 - Aug 2013")),
             ul(
               li("Rewrote the Collaborative Filtering algorithm in the online Shopping Mall and achieved a 7x speed up (PoC)."),
-              li("Demo the result on Yahoo! Taiwan's Intern Day and won the ", b("Most Popular Award."))
+              li("Demo the result on Yahoo! Taiwan's Intern Day and won the Most Popular Award.")
             ),
             h3("Graduate Student at IRLab, NTU (Prof. Pu-Jen Cheng)", br, small("Sep 2011 - Jul 2014")),
             ul(
@@ -118,13 +123,13 @@ object Main extends App {
           div(cls := "col-sm-2", h3(i("Open Source"))),
           div(
             cls := "col-sm-10",
-            h3(at("https://vocaradio.com/", "VocaRadio"), " ", small("← Click to Play")),
+            h3(at("https://vocaradio.com/", "VocaRadio")),
             ul(
               li("Github: ", at("https://github.com/pishen/vocaradio", "pishen/vocaradio")),
               li("A 24/7 web radio playing 1700+ VOCALOID songs on YouTube. Implemented by Play Framework and Akka Actors."),
               li("Since the current playing song is synchronized between each client, one can also use the websocket chatroom and song ordering system to interact with other fans.")
             ),
-            h3(at("https://goi.moe/", "ゴイマシーン (goi machine)"), " ", small("← Click to Play")),
+            h3(at("https://goi.moe/", "ゴイマシーン (goi machine)")),
             ul(
               li("Github: ", at("https://github.com/pishen/goi", "pishen/goi")),
               li("A web application which helps users to learn Japanese vocabularies."),
@@ -134,26 +139,17 @@ object Main extends App {
             ul(
               li("Github: ", at("https://github.com/pishen/sbt-emr-spark", "pishen/sbt-emr-spark")),
               li("A SBT plugin which lets you run your Spark jobs on AWS EMR easily."),
-              li("This project is a successor to ", at("https://github.com/KKBOX/spark-deployer", "KKBOX/spark-deployer"), ", which was widely adopted in KKBOX. Learned from the collected feedback, sbt-emr-spark has a simpler design and is even easier to use.")
-            ),
-            h3("chart4s"),
-            ul(
-              li("Github: ", at("https://github.com/pishen/chart4s", "pishen/chart4s")),
-              li("A simple tool that lets you draw a web chart by Scala.")
+              li("This project is a successor to ", at("https://github.com/KKBOX/spark-deployer", "KKBOX/spark-deployer"), ", which was widely adopted in KKBOX. Learned from the collected feedback, sbt-emr-spark has a simpler design and is much more easier to use.")
             ),
             h3("scalikejdbc-generic"),
             ul(
               li("Github: ", at("https://github.com/pishen/scalikejdbc-generic", "pishen/scalikejdbc-generic")),
-              li("A generic mapper which helps mapping your ScalikeJDBC's ResultSet into your custom data structure. Using the techniques in ", at("https://github.com/milessabin/shapeless", "shapeless"), ".")
+              li("A generic mapper which helps mapping your ScalikeJDBC's ResultSet into your custom data structure. Using ", at("https://github.com/milessabin/shapeless", "Shapeless"), " under the hood.")
             ),
             h3("annoy4s"),
             ul(
               li("Github: ", at("https://github.com/pishen/annoy4s", "pishen/annoy4s")),
               li("A Scala client for ", at("https://github.com/spotify/annoy", "spotify/annoy."), " Using JNA (Java Native Access) to connect Scala to the C++ source code in Annoy.")
-            ),
-            h3("Other contributions"),
-            ul(
-              li("I also have sent several pull requests to ", at("https://github.com/pathikrit/better-files/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "better-files"), ", ", at("https://github.com/seratch/AWScala/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "AWScala"), ", and ", at("https://github.com/opt-tech/chronoscala/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Apishen", "chronoscala"), ".")
             )
           )
         ),
@@ -163,10 +159,10 @@ object Main extends App {
           div(cls := "col-sm-2", h3(i("Community"))),
           div(
             cls := "col-sm-10",
-            h3("ScalaTaiwan ", small("Jan 2016 - Present")),
-            p("A ", at("https://www.meetup.com/Scala-Taiwan-Meetup/", "meetup group"), " in Taipei which is held every month. I've joined in the very beginning and helped designing the logo and ", at("https://gitter.im/ScalaTaiwan/ScalaTaiwan", "gitter channel"), ". We are a group of people who loves to share knowledge and news about Scala, and would like to gather and strengthen the Scala community in Taiwan."),
-            h3(at("http://scalakitchen.org/", "ScalaKitchen"), " ", small("← Click to Play")),
-            p("A Chinese Scala tutorial with online playground, implemented by ", at("https://szeiger.github.io/ornate-doc/", "Ornate"), " site generator and ", at("https://scalafiddle.io/", "ScalaFiddle"), ". I'm now the main contributor of this project."),
+            h3(at("https://www.meetup.com/Scala-Taiwan-Meetup/", "ScalaTaiwan")),
+            p("A meetup group in Taipei which has been held every month since Jan 2016. I've joined in the very beginning and helped the visual design and ", at("https://gitter.im/ScalaTaiwan/ScalaTaiwan", "gitter channel"), ". We are a group of people who loves to share knowledge and news about Scala, and would like to strengthen the Scala community in Taiwan."),
+            h3(at("http://scalakitchen.org/", "ScalaKitchen")),
+            p("A Chinese Scala tutorial with online playground, implemented by ", at("https://szeiger.github.io/ornate-doc/", "Ornate"), " and ", at("https://scalafiddle.io/", "ScalaFiddle"), ". I'm the creator and the first writer of this project."),
             h3("Talks"),
             ul(
               li(b("Shapeless Introduction"), " | ScalaTaiwan | 2017-07-12 | ", at("https://speakerdeck.com/pishen/shapeless-introduction", "slides")),
