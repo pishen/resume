@@ -88,7 +88,7 @@ object Main extends App {
           div(cls := "col-sm-2", h3(i("Experience"))),
           div(
             cls := "col-sm-10",
-            h3("Software Engineer at ", at("http://www.vpon.com/en/", "Vpon"), br, small("Oct 2017 - Present")),
+            h3("Senior Data Engineer at ", at("http://www.vpon.com/en/", "Vpon"), br, small("Oct 2017 - Present")),
             ul(
               li("Developed interactive insight reports for campaign managers to to find their target audience. Used Apache Spark and ", at("https://www.scala-js.org/", "Scala.js"), " to form a full-stack solution.")
             ),
