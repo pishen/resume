@@ -94,7 +94,7 @@ object Main extends App {
             ),
             h3("Software Engineer at ", at("https://www.kktv.me", "KKTV"), br, small("Oct 2016 - Sep 2017")),
             ul(
-              li("Created ", at("https://github.com/pishen/sbt-emr-spark", "sbt-emr-spark"), " and applied it on the data workflow in KKTV."),
+              li("Created ", at("https://github.com/pishen/sbt-lighter", "sbt-lighter"), " and applied it on the data workflow in KKTV."),
               li("Developed a drama recommendation system based on Collaborative Filtering. This algorithm increased the average watching time by 1.5hr per week for each user.")
             ),
             h3("Software Engineer at ", at("https://www.kkbox.com/tw/en/index.html", "KKBOX"), br, small("Oct 2014 - Sep 2016")),
@@ -135,11 +135,11 @@ object Main extends App {
               li("A web application which helps users to learn Japanese vocabularies."),
               li("The system will memorize each answering attempt from the users, and use its cool-down algorithm to pick the next vocabulary for the user.")
             ),
-            h3("sbt-emr-spark"),
+            h3("sbt-lighter"),
             ul(
-              li("Github: ", at("https://github.com/pishen/sbt-emr-spark", "pishen/sbt-emr-spark")),
+              li("Github: ", at("https://github.com/pishen/sbt-lighter", "pishen/sbt-lighter")),
               li("A SBT plugin which lets you run your Spark jobs on AWS EMR easily."),
-              li("This project is a successor to ", at("https://github.com/KKBOX/spark-deployer", "KKBOX/spark-deployer"), ", which was widely adopted in KKBOX. Learned from the collected feedback, sbt-emr-spark has a simpler design and is much more easier to use.")
+              li("This project is a successor to ", at("https://github.com/KKBOX/spark-deployer", "KKBOX/spark-deployer"), ", which was widely adopted in KKBOX. Learned from the collected feedback, sbt-lighter has a simpler design and is much more easier to use.")
             ),
             h3("scalikejdbc-generic"),
             ul(
@@ -167,7 +167,7 @@ object Main extends App {
             ul(
               li(b("Shapeless Introduction"), " | ScalaTaiwan | 2017-07-12 | ", at("https://speakerdeck.com/pishen/shapeless-introduction", "slides")),
               li(b("ScalaKitchen"), " | ScalaTaiwan | 2017-04-12 | ", at("https://speakerdeck.com/pishen/scalakitchen", "slides")),
-              li(b("sbt-emr-spark"), " | ScalaMatsuri 2017 Unconference | 2017-02-26 | ", at("https://speakerdeck.com/pishen/sbt-emr-spark", "slides")),
+              li(b("sbt-lighter"), " | ScalaMatsuri 2017 Unconference | 2017-02-26 | ", at("https://speakerdeck.com/pishen/sbt-emr-spark", "slides")),
               li(b("My Personal Report of Scala Kansai 2016"), " | ScalaTaiwan | 2016-11-01 | ", at("https://speakerdeck.com/pishen/my-personal-report-of-scala-kansai-2016", "slides")),
               li(b("SBT Basic Concepts"), " | ScalaTaiwan | 2016-07-12 | ", at("https://speakerdeck.com/pishen/sbt-basic-concepts", "slides")),
               li(b("Deploy your own Spark cluster in 4 minutes using sbt"), " | JCConf 2015 | ", at("https://speakerdeck.com/pishen/deploy-your-own-spark-cluster-in-4-minutes-using-sbt", "slides"), " | ", at("https://www.youtube.com/watch?v=XWhQlhuBq2Q", "video"))
