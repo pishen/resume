@@ -1,9 +1,7 @@
 name := "resume"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.13.11"
 
-libraryDependencies ++= Seq(
-  "com.github.pathikrit" %% "better-files" % "2.17.1",
-  "com.lihaoyi" %% "scalatags" % "0.6.3",
-  "org.rogach" %% "scallop" % "2.1.1"
-)
+enablePlugins(ParadoxPlugin)
+
+paradoxTheme := Some(builtinParadoxTheme("generic"))
