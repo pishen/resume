@@ -31,7 +31,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
-        path: '.target/paradox/site/main'
+        path: './target/paradox/site/main'
   deploy:
     environment:
       name: github-pages
