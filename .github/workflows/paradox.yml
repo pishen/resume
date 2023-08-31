@@ -29,9 +29,9 @@ jobs:
     - name: Build
       run: sbt -v -Dfile.encoding=UTF-8 paradox
     - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: '.target/paradox/site/main'
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: '.target/paradox/site/main'
   deploy:
     environment:
       name: github-pages
