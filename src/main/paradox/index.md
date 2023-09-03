@@ -8,6 +8,15 @@ nav {
     display: none;
 }
 
+h1 {
+    margin-top: 0;
+}
+
+.name {
+    display: block;
+    font-size: 0.5em;
+}
+
 .social a {
     color: #333333;
 }
@@ -24,7 +33,7 @@ nav {
 }
 </style>
 
-# Pishen Tsai
+# Pishen Tsai @span[蔡誠軒(サイセイケン)]{.name}
 @@@ div { .social }
 [<i class="bi bi-envelope"></i>](mailto:pishen02@gmail.com) |
 [<i class="bi bi-github"></i>](https://github.com/pishen) |
