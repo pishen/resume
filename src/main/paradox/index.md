@@ -33,7 +33,7 @@ h1 {
 }
 </style>
 
-# Pishen Tsai @span[蔡誠軒(サイセイケン)]{.name}
+# Pishen Tsai @span[蔡誠軒]{.name}
 @@@ div { .social }
 [<i class="bi bi-envelope"></i>](mailto:pishen02@gmail.com) |
 [<i class="bi bi-github"></i>](https://github.com/pishen) |
