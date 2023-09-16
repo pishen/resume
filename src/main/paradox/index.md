@@ -111,12 +111,12 @@ A meetup group in Taipei which was founded in Jan 2016. As one of the founders, 
 * Deploy your own Spark cluster in 4 minutes using sbt | JCConf 2015 | [slides](https://speakerdeck.com/pishen/deploy-your-own-spark-cluster-in-4-minutes-using-sbt) | [video](https://www.youtube.com/watch?v=XWhQlhuBq2Q)
 
 ## Skills
-Scala | Java | JavaScript | SQL | Python | HTML & CSS | Tapir | Akka | Scio | Apache Spark | Google Cloud Platform | Amazon Web Service | Linux | VScode | Machine Learning
+Scala | Java | JavaScript | SQL | HTML & CSS | Tapir | Akka | Scio | Apache Spark | Google Cloud Platform | Amazon Web Service | Linux | VScode | Machine Learning
 
 ## Education
 
-### National Taiwan University @span[Master, Computer Science & Information Engineering]{.company} @span[2011 - 2013]{.duration}
+### National Taiwan University @span[Master, Computer Science & Information Engineering]{.company} @span[2011 - 2014]{.duration}
 GPA 4.15
 
-### National Taiwan University @span[Bachelor, Computer Science & Information Engineering]{.company} @span[2007 - 2010]{.duration}
+### National Taiwan University @span[Bachelor, Computer Science & Information Engineering]{.company} @span[2007 - 2011]{.duration}
 Two presidential awards.
