@@ -44,7 +44,7 @@ h1 {
 
 ## Experience
 
-### Senior Data Engineer @span[[Vpon Big Data Group](https://www.vpon.com/)]{.company} @span[Oct 2017 - Present]{.duration}
+### Senior Software Engineer @span[[Vpon Big Data Group](https://www.vpon.com/)]{.company} @span[Oct 2017 - Present]{.duration}
 
 * Designed and developed the backend of [Wee Data Platform](https://wee.vpon.com/). This platform utilizes [Scio](https://spotify.github.io/scio/) to process data sources, stores the results in Google Cloud Datastore, and offers content of 13 distinct dashboards/functions through an App Engine API server implemented by [Tapir](https://tapir.softwaremill.com/) and Akka HTTP.
 * Rolled out a GitHub development workflow in the backend team, with a CI/CD process implemented by GitHub Actions and SBT.
@@ -69,10 +69,6 @@ h1 {
 
 * Rewrote the Collaborative Filtering algorithm in the online Shopping Mall and achieved a 7x speed up (PoC).
 * Demo the result on Yahoo! Taiwan's Intern Day and won the Most Popular Award.
-
-### Graduate Student @span[IRLab, NTU ([Prof. Pu-Jen Cheng](https://www.csie.ntu.edu.tw/~pjcheng/))]{.company} @span[Sep 2011 - Jul 2014]{.duration}
-* Improved the accuracy of a speed-up algorithm for [Logistic Markov Embedding](https://dl.acm.org/doi/10.1145/2339530.2339643), which can be applied to predicting sequences like music playlists, online shopping flow, news reading...etc.
-* Slides: [Modeling Item Sequences by Overlapped Markov Embeddings](soft-lme.pdf)
 
 ## Projects
 
@@ -111,7 +107,7 @@ A meetup group in Taipei which was founded in Jan 2016. As one of the founders, 
 * Deploy your own Spark cluster in 4 minutes using sbt | JCConf 2015 | [slides](https://speakerdeck.com/pishen/deploy-your-own-spark-cluster-in-4-minutes-using-sbt) | [video](https://www.youtube.com/watch?v=XWhQlhuBq2Q)
 
 ## Skills
-Scala | Java | JavaScript | SQL | HTML & CSS | Tapir | Akka | Scio | Apache Spark | Google Cloud Platform | Amazon Web Service | Linux | VScode | Machine Learning
+Scala | Java | JavaScript | SQL | Python | HTML & CSS | Tapir | Cats | Akka | Scio | Apache Spark | GCP | AWS | Linux | VScode | Machine Learning
 
 ## Education
 
