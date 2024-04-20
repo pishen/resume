@@ -44,7 +44,11 @@ h1 {
 
 ## Experience
 
-### Senior Data Engineer @span[[Vpon Big Data Group](https://www.vpon.com/)]{.company} @span[Oct 2017 - Present]{.duration}
+### Senior Software Engineer @span[[Atgenomix](https://www.atgenomix.com/)]{.company} @span[Dec 2023 - Present]{.duration}
+
+* Develope new backends of [Cromwell](https://github.com/broadinstitute/cromwell) for it to run on different cloud platforms using Spark on Kubernetes.
+
+### Senior Data Engineer @span[[Vpon Big Data Group](https://www.vpon.com/)]{.company} @span[Oct 2017 - Nov 2023]{.duration}
 
 * Designed and developed the backend of [Wee Data Platform](https://wee.vpon.com/). This platform utilizes [Scio](https://spotify.github.io/scio/) to process data sources, stores the results in Google Cloud Datastore, and offers content of 13 distinct dashboards/functions through an App Engine API server implemented by [Tapir](https://tapir.softwaremill.com/) and Akka HTTP.
 * Rolled out a GitHub development workflow in the backend team, with a CI/CD process implemented by GitHub Actions and SBT.
