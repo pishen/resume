@@ -44,7 +44,7 @@ h1 {
 
 ## Experience
 
-### Senior Software Engineer @span[[Atgenomix](https://www.atgenomix.com/)]{.company} @span[Dec 2023 - Present]{.duration}
+### Senior Software Engineer @span[[Atgenomix](https://www.atgenomix.com/)]{.company} @span[Dec 2023 - Apr 2024]{.duration}
 
 * Develope new backends of [Cromwell](https://github.com/broadinstitute/cromwell) for it to run on different cloud platforms using Spark on Kubernetes.
 
