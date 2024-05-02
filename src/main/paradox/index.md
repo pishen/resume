@@ -111,7 +111,7 @@ A meetup group in Taipei which was founded in Jan 2016. As one of the founders, 
 * Deploy your own Spark cluster in 4 minutes using sbt | JCConf 2015 | [slides](https://speakerdeck.com/pishen/deploy-your-own-spark-cluster-in-4-minutes-using-sbt) | [video](https://www.youtube.com/watch?v=XWhQlhuBq2Q)
 
 ## Skills
-Scala | Java | JavaScript | SQL | Python | HTML & CSS | Tapir | Cats | Akka | Scio | Apache Spark | GCP | AWS | Linux | VScode | Machine Learning
+Scala | Java | Python | JavaScript | SQL | HTML & CSS | Tapir | Cats | Akka | Google Cloud Dataflow | Apache Spark | Kubernetes | GCP | AWS | Linux | VScode | Machine Learning
 
 ## Education
 
