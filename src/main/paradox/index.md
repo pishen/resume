@@ -52,7 +52,7 @@ h1 {
 
 * Designed and developed the backend of [Wee Data Platform](https://wee.vpon.com/). This platform utilizes [Scio](https://spotify.github.io/scio/) to process data sources, stores the results in Google Cloud Datastore, and offers content of 13 distinct dashboards/functions through an App Engine API server implemented by [Tapir](https://tapir.softwaremill.com/) and Akka HTTP. A [small demo](https://www.youtube.com/watch?v=x6gSoNookXY) is available.
 * Rolled out a GitHub development workflow in the backend team, with a CI/CD process implemented by GitHub Actions and SBT.
-* Developed a large-scale geodata encoding algorithm utilizing [GeoTrellis](https://geotrellis.io/) and Scio. The algorithm samples and encodes geodata into [vector tiles](https://www.maptiler.com/google-maps-coordinates-tile-bounds-projection), providing a smooth map browsing experience.
+* Developed a large-scale geodata encoding algorithm utilizing [GeoTrellis](https://geotrellis.io/) and Scio. The algorithm samples and encodes geodata into [vector tiles](https://docs.maptiler.com/google-maps-coordinates-tile-bounds-projection), providing a smooth map browsing experience.
 * Created [store4s](https://github.com/pishen/store4s) to eliminate the boilerplate and introduce type-safety during interactions with Google Cloud Datastore.
 * Built a web application that uses a lookalike algorithm to find potential users for a specific app on Google Play. This application is implemented by Scio, Akka HTTP, and Scala.js.
 
